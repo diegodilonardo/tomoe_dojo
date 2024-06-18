@@ -1,0 +1,96 @@
+/* 
+selector{ propiedad : valor}
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+.logo_tomoe img {
+    background-color:beige;
+    width: 12%;
+    border:1px solid black;
+}
+.logo_oaal img {
+    background-color:beige;
+    width: 12%;
+    border:1px solid black;
+}
+
+
+.menu_nav {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+h1{
+    color:blueviolet;
+    background-color:coral;
+    font-family:"Raleway",sans-serif;
+    text-align: center;
+}
+
+/* Clase para Backcolor,font family, alineacion texto en Titulos h2
+*/
+
+h2.fondocolor {
+
+background-color: brown;    
+font-family:"Raleway",sans-serif;
+text-align: center;
+}
+
+h3.fondocolor {
+    background-color:darkorange;    
+    font-family:"Raleway",sans-serif;
+    text-align: center;
+    }
+
+
+h4.fondocolor {
+    background-color:darkgray;    
+    font-family:"Raleway",sans-serif;
+    text-align: center;
+    }
+
+/* Fondo main para Backcolor en Titulos h1
+*/
+
+#fondomain
+{
+    background-color: lightskyblue;
+}
+
+.fondofooter {
+background-color:mediumspringgreen;
+font-family: "Raleway",sans-serif;
+color: darkslategrey;
+}
+
+.iconos{
+    width: 2%;
+}
+
+.iconomail{
+    width: 15%;
+}
+
+.flechaup{
+    width: 5%;
+}
+
+#claseredes{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:small;
+}
+
+#novedades{
+    background-color: blueviolet;
+}
+
+.imgvideo{
+    width: 15%;
+}
