@@ -1,60 +1,89 @@
 /* 
 selector{ propiedad : valor}
 */
+*
+{
+    margin: 0;
+    padding: 0;
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Header de todos las paginas imagenes y titulos*/
 
-
-
-
-.logo_tomoe img {
-    background-color:beige;
-    width: 12%;
-    border:1px solid black;
+.logos_titulos{
+    display: grid;
+    grid-template-rows: repeat(2,100px);
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: 
+    'logo_tomoe titulo1 logo_oaal'
+    'logo_tomoe titulo2 logo_oaal';
+} 
+.caja_logo_tomoe {
+    grid-area: logo_tomoe;
+    /*border: 1px solid black;*/
 }
-.logo_oaal img {
-    background-color:beige;
-    width: 12%;
-    border:1px solid black;
+.caja_logo_tomoe img {
+    width: 75%;
+    margin: auto;
+    padding-top: 25px;
+    padding-left: 60px;
 }
-
-
-.menu_nav {
+.titulo1 {
+    padding-top: 20px;
+    grid-area: titulo1;
+    
     font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+.titulo2 {
+    grid-area: titulo2;
+    
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+.caja_logo_oaal{
+    /*border: 1px solid black;*/
+    grid-area: logo_oaal;
+    
+}
+.caja_logo_oaal img {
+    width: 75%;
+    margin: auto;
+    padding-top: 25px;
+    padding-left: 60px;
 }
 
+/*Barra de Navegacion*/
 
-h1{
-    color:blueviolet;
-    background-color:coral;
-    font-family:"Raleway",sans-serif;
-    text-align: center;
+nav.navbar-escritorio {
+    background-color:dimgray;
+    position: sticky;
+    top: 5px;
+}
+nav.navbar-escritorio .tablet-and-up {
+    list-style: none;
+    display: flex;   
+    padding: 20px 15px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+nav.navbar-escritorio .tablet-and-up li a:hover  {
+    background-color: #c0b6b1;      
+    border-radius: 5px 0 10px 0;  
+}
+nav ul a {
+    text-decoration: none;
+    color: black;
+    font-size:medium;
+    font-weight: 600;
 }
 
 /* Clase para Backcolor,font family, alineacion texto en Titulos h2
 */
 
-h2.fondocolor {
-
-background-color: brown;    
-font-family:"Raleway",sans-serif;
-text-align: center;
-}
-
-h3.fondocolor {
-    background-color:darkorange;    
-    font-family:"Raleway",sans-serif;
-    text-align: center;
-    }
-
-
-h4.fondocolor {
-    background-color:darkgray;    
-    font-family:"Raleway",sans-serif;
-    text-align: center;
-    }
 
 /* Fondo main para Backcolor en Titulos h1
 */
@@ -64,33 +93,223 @@ h4.fondocolor {
     background-color: lightskyblue;
 }
 
-.fondofooter {
-background-color:mediumspringgreen;
-font-family: "Raleway",sans-serif;
-color: darkslategrey;
+/*carrousel*/
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+    opacity: .2;
+    background-color: rgb(66, 66, 66);
+}
+.carousel-inner {
+background-color:darkgrey;
+}
+.carousel-inner img {
+    margin-left: 250px;
+    width: 612px;
+    height: 400px;
 }
 
-.iconos{
-    width: 2%;
+.fotos {
+    display: flex;
 }
 
-.iconomail{
-    width: 15%;
+.img_osensei1 img {
+    padding-top: 50px;
+    padding-left: 25px;
+    width: 500 px;
+    height: 367px;
+}
+
+.img_iwama1 img {
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 460px;
+    height: 367px;
+ }
+
+ .img_dojo_aikido img {
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 460px;
+    height: 367px;
+ }
+
+/* footer */
+
+footer .formulario {
+    background-color: #a5a5a5;
+    border: 1px solid rgb(0, 0, 0); 
+    border-radius: 5px;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;    
+    margin: 50px auto;
+    grid-column: 1/6; 
+    grid-row: 1/2;
+}
+footer .formulario .suscribite_form input[type=email]  {
+    
+    border-radius: 15px 0 0 15px;
+    width: 25%;
+    padding-left: 20px;
+    margin-left: 150px;
+}
+
+footer .formulario .suscribite_form button[type=submit] {
+    
+    background-color: #333e48;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    width: 10%;
+    position: relative;
+    right: 4px;
+}
+
+footer .formulario .suscribite_form input[type=email]::placeholder {
+    padding-left: 5px;
+    color: rgb(10, 49, 133);
+}
+
+footer .footer_abajo {
+    display: flex;
+    background-color: #a5a5a5;
+    border: 1px solid rgb(0, 0, 0); 
+    border-radius: 5px;
+    width: 80vw;
+    height: 20vw;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;    
+    margin: 50px auto;
+}
+
+footer .grid-container {
+    display: grid;
+    background-color: #bfbcc0;
+    padding: 20px;    
+    margin: 10px auto;
+    border-radius: 5px;
+    width: 80vw;
+    height: 11.5vw;
+    grid-template-rows: repeat(4,58px);
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+
+/*footer .grid-item {
+   border: 1px solid black;
+   }
+*/
+.iconos {
+    width: 14%;
+    margin-top: 3.5px;
+    margin-left: 27px;
+}
+
+.seguinos {
+    margin-top: 15px;
+    margin-left: 45px;
+}
+
+.contacto {
+    margin-top: 15px;
+    margin-left: 60px;
+}
+
+.email {
+    margin-top: 15px;
+    margin-left: 45px;
+}
+
+.ubicacion {
+    margin-top: 15px;
+    margin-left: 110px;
+}
+
+.mapa {
+    width: 14%;
+    margin-top: 3.5px;
+    margin-left: 150px;
+}
+
+.copyright {
+    
+    margin:50px auto;
 }
 
 .flechaup{
-    width: 5%;
-}
-
-#claseredes{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:small;
-}
-
-#novedades{
-    background-color: blueviolet;
+    width: 2%;
 }
 
 .imgvideo{
     width: 15%;
 }
+
+/* PAGINA ACERCA AIKIDO */
+
+.caja_principal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo_aikido {
+    margin-top: 40px;
+    margin-right: 470px;
+}
+
+.kanji_aikido {
+    width: 50px;
+    margin-left: 470px;
+}
+
+.titulos_acerca {
+    display: flex;
+    background-color: black;
+    border: 1px solid black;
+    color: aliceblue;
+    justify-content: center;
+}
+
+.contenedor_kanjis {
+display: flex;
+justify-content: center;
+
+}
+
+.pictogramas {
+    width: 100px;
+}
+
+.pictograma_letra {
+    margin-top: 40px;
+}
+
+.kanji_aikido2 {
+    width: 50px;
+    margin-left: 470px;
+}
+
+.os6 {
+display: flex;
+width: 740px;
+margin-left: 16%;
+}
+
+.fotos_osensei {
+    display: flex;
+    margin-left: -60px;
+}
+
+.img_sensei img {
+    padding-top: 20px;
+    padding-left: 25px;
+    
+    width:300px;
+    height: 367px;
+}
+
