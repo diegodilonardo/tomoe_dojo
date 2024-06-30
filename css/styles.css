@@ -10,6 +10,8 @@ selector{ propiedad : valor}
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+
 /* Header de todos las paginas imagenes y titulos*/
 
 .logos_titulos{
@@ -313,3 +315,25 @@ margin-left: 16%;
     height: 367px;
 }
 
+/* Mobile */
+
+@media screen and (max-width: 768px) {
+    
+    
+    
+    .caja_logo_tomoe img {
+        width: 100%;
+        margin: auto;
+        padding-top: 25px;
+        padding-left: 60px;
+      
+    }
+    .caja_logo_oaal img {
+        width: 100%;
+        margin: auto;
+        padding-top: 25px;
+        padding-left: 60px;
+    }
+
+
+}
