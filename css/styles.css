@@ -59,28 +59,30 @@ selector{ propiedad : valor}
 
 /*Barra de Navegacion*/
 
-nav.navbar-escritorio {
+.navbar ul a:hover {
+    text-decoration: none;
+    color: black;
+    font-size:medium;
+    font-weight: 600;
+    background-color: #c0b6b1;      
+    border-radius: 5px 0 10px 0
+}
+
+.navbar{
     background-color:dimgray;
     position: sticky;
     top: 5px;
 }
-nav.navbar-escritorio .tablet-and-up {
+
+.navbar .navbar-nav .nav-item{ 
     list-style: none;
     display: flex;   
     padding: 20px 15px;
     align-items: center;
     justify-content: space-evenly;
+    margin-left: 35px;
 }
-nav.navbar-escritorio .tablet-and-up li a:hover  {
-    background-color: #c0b6b1;      
-    border-radius: 5px 0 10px 0;  
-}
-nav ul a {
-    text-decoration: none;
-    color: black;
-    font-size:medium;
-    font-weight: 600;
-}
+
 
 /* Clase para Backcolor,font family, alineacion texto en Titulos h2
 */
@@ -351,4 +353,7 @@ margin-left: 16%;
         margin-right: 60px;
         font-size: 150%        
     }
+    
 }
+
+
