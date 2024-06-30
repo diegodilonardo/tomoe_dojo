@@ -321,13 +321,14 @@ margin-left: 16%;
     .logos_titulos{
         display: grid;
         grid-template-rows: repeat(2,100px);
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr;
         grid-template-areas: 
-        'logo_tomoe titulo1'
-        'logo_oaal titulo2';
+        'titulo1'
+        'titulo2';
     }
     
     .caja_logo_tomoe img {
+        display:none;
         width: 60%;
         margin: auto;
         padding-top: 10px;
@@ -335,6 +336,7 @@ margin-left: 16%;
     }
 
     .caja_logo_oaal img {
+        display:none;
         width: 60%;
         margin: auto;
         padding-top: 10px;
@@ -343,8 +345,10 @@ margin-left: 16%;
     
     .titulo1 {
         margin-right: 60px;
+        font-size: 250%;
     }
     .titulo2 {
-        margin-right: 60px;        
+        margin-right: 60px;
+        font-size: 150%        
     }
 }
