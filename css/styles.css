@@ -327,8 +327,24 @@ margin-left: 16%;
         'logo_oaal titulo2';
     }
     
+    .caja_logo_tomoe img {
+        width: 60%;
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 40px;
+    }
+
+    .caja_logo_oaal img {
+        width: 60%;
+        margin: auto;
+        padding-top: 10px;
+        padding-left: 40px;
+    }
     
-    
-    
-    
+    .titulo1 {
+        margin-right: 60px;
+    }
+    .titulo2 {
+        margin-right: 60px;        
+    }
 }
