@@ -319,6 +319,8 @@ margin-left: 16%;
 /* Mobile */
 
 @media screen and (max-width: 768px) {
+
+    /*RESPONSIVE INDEX*/
     
     .logos_titulos{
         display: grid;
@@ -408,6 +410,27 @@ margin-left: 16%;
         grid-template-columns: 1fr;
         border: 1px solid black;
         justify-content: center;
+        grid-template-areas: 
+        'seguinos' 
+        'iconos'
+        'contacto'
+        'email'
+        'ubicacion'
+        'mapas'
+        ;
+    }
+
+    .grid-item1 {
+        grid-area: seguinos;
+    }
+
+    .grid-item4 {
+        grid-area: iconos;
+    }
+
+    .grid-item5 {
+        grid-area: contacto;
+
     }
 
     .iconos {
@@ -452,6 +475,54 @@ margin-left: 16%;
         margin-left: 58px;
         
     }
+
+    .flechaup{
+        width: 20%;
+    }
+
+    /* RESPONSIVE ACERCA AIKIDO*/
+
+
+    .titulo_aikido {
+        margin-top: 20px;
+        margin-right: 50px;
+    }
+    
+    .kanji_aikido {
+        width: 20px;
+        margin-left: 50px;
+    }
+
+    .contenedor_kanjis {
+        display: block;
+        justify-content: left;
+        
+        }
+        
+    .pictogramas {
+        width: 100px;
+    }
+
+    .img_sensei6 {
+     
+        width: 43%;
+        margin-left: -40px;
+    }
+
+    .fotos_osensei {
+        display: block;        
+    }
+    
+    .img_sensei img {
+        padding-top: 20px;
+        padding-left: 25px;
+        
+        width: 350px;
+        height: 367px;
+
+        margin-left: 50px;
+    }
+
 
 }
 
