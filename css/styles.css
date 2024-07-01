@@ -330,28 +330,29 @@ margin-left: 16%;
     
     .caja_logo_tomoe img {
         /*display:none;*/
-        width: 10%
-        /*margin: auto
+        width: 150px;
+               
         /*padding-top: 10px;
         padding-left: 40px;*/
     }
 
     .caja_logo_oaal img {
         /*display:none;*/
-        width: 60%
+        width: 150px;
+        
+                
         /*margin: auto;
         padding-top: 10px;
         padding-left: 40px;*/
     }
     
     .titulo1 {
-        margin-right: 60px;
+        margin: auto;
         font-size: 200%;
     }
     .titulo2 {
-        margin-top: 20px;
-        margin-right: 60px;
-        font-size: 100%        
+        margin:auto ;
+        font-size: 100%;     
     }
     
 }
