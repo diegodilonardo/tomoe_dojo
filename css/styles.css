@@ -329,18 +329,19 @@ margin-left: 16%;
     }
     
     .caja_logo_tomoe img {
-        /*display:none;*/
-        width: 150px;
-               
+        
+        width: 100px;
+        padding-left: 40px; 
         /*padding-top: 10px;
         padding-left: 40px;*/
     }
 
     .caja_logo_oaal img {
-        /*display:none;*/
-        width: 150px;
         
-                
+        width: 100px;
+        padding-left: 35px;
+        margin-left: -40px;
+        
         /*margin: auto;
         padding-top: 10px;
         padding-left: 40px;*/
@@ -352,7 +353,7 @@ margin-left: 16%;
     }
     .titulo2 {
         margin:auto ;
-        font-size: 100%;     
+        font-size: 120%;     
     }
     
 }
