@@ -365,6 +365,26 @@ margin-left: 16%;
         height: 90%;
         
     }
+
+    footer .formulario {
+        background-color: #a5a5a5;
+        border: 1px solid rgb(0, 0, 0); 
+        border-radius: 5px;
+        width: 80%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;    
+        margin: 50px auto;
+        grid-column: 1/6; 
+        grid-row: 1/2;
+    }
+    
+    footer .formulario p{
+    
+        margin-left: 10px;
+
+    }
+
     footer .formulario .suscribite_form input[type=email]  {
     
         border-radius: 15px 0 0 15px;
@@ -532,6 +552,9 @@ margin-left: 16%;
     .fotos_productos img {
         width: 100%;
     }
+
+
+
 }
 
 
