@@ -82,20 +82,7 @@
     justify-content: space-evenly;
     margin-left: 10px;
 }
-
-
-    /* Clase para Backcolor,font family, alineacion texto en Titulos h2
-    */
-
-
-/* Fondo main para Backcolor en Titulos h1
-*/
-
-#fondomain
-{
-    background-color: lightskyblue;
-}
-
+  
 /*carrousel*/
 
 .carousel-control-next:focus,
@@ -145,7 +132,7 @@ footer .formulario {
     background-color: #a5a5a5;
     border: 1px solid rgb(0, 0, 0); 
     border-radius: 5px;
-    width: 80vw;
+    width: 50vw;
     justify-content: space-between;
     align-items: center;
     padding: 20px;    
@@ -153,10 +140,17 @@ footer .formulario {
     grid-column: 1/6; 
     grid-row: 1/2;
 }
+
+footer .formulario p{
+
+    margin-left: 90px;
+    
+}
+
 footer .formulario .suscribite_form input[type=email]  {
     
     border-radius: 15px 0 0 15px;
-    width: 25%;
+    width: 40%;
     padding-left: 20px;
     margin-left: 150px;
 }
