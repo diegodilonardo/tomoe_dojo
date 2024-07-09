@@ -1,0 +1,80 @@
+footer {
+    .formulario {
+        background-color: #a5a5a5;
+        border: 1px solid rgb(0, 0, 0); 
+        border-radius: 5px;
+        width: 50vw;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;    
+        margin: 50px auto;
+        grid-column: 1/6; 
+        grid-row: 1/2;
+            .suscribite_form p {
+                margin-left: 90px;
+            }
+            .suscribite_form input[type=email] {
+                border-radius: 15px 0 0 15px;
+                 width: 40%;
+                padding-left: 20px;
+                margin-left: 150px;
+                    &::placeholder {
+                        padding-left: 5px;
+                        color: rgb(10, 49, 133);
+                    }
+            }
+            .suscribite_form button[type=submit] {
+                background-color: #333e48;
+                border-radius: 0 15px 15px 0;
+                color: white;
+                width: 10%;
+                position: relative;
+                right: 4px;
+            }
+    }
+    .grid-container {
+        display: grid;
+        background-color: #bfbcc0;
+        padding: 20px;    
+        margin: 10px auto;
+        border-radius: 5px;
+        width: 80vw;
+        height: 11.5vw;
+        grid-template-rows: repeat(4,58px);
+        grid-template-columns: 1fr 1fr 1fr;
+        border: 1px solid black;
+        justify-content: center;
+        .seguinos {
+            margin-top: 15px;
+            margin-left: 45px;
+        }
+        .contacto {
+            margin-top: 15px;
+            margin-left: 60px;
+        }
+        .email {
+            margin-top: 15px;
+            margin-left: 45px; 
+        }
+        .ubicacion {
+            margin-top: 15px;
+            margin-left: 110px;
+        }
+        .iconos {
+            width: 14%;
+            margin-top: 3.5px;
+            margin-left: 27px;
+        }
+        .mapa {
+            width: 14%;
+            margin-top: 3.5px;
+            margin-left: 150px;
+        }
+    }
+    .copyright {        
+    margin:50px auto;
+    }
+    .flechaup {
+        width: 2%;
+    }
+}

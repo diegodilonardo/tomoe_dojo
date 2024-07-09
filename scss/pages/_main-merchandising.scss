@@ -1,0 +1,17 @@
+main {
+    .seccion1 {
+        display: flex;
+        background-color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        color: aliceblue;
+        justify-content: center;    
+    }
+    .seccion2 {
+        .fotos_productos {
+            img {
+                width: 25%;
+            }       
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import "./utilities/variables";
+@import "./utilities/extend";
+@import "./utilities/mixin";
+
+@import "./utilities/globales";
+
+@import "./components/header";
+@import "./pages/main-index";
+@import "./pages/main-acerca_aikido";
+@import "./pages/main-oaa";
+@import "./pages/main-informacion";
+@import "./pages/main-videos";
+@import "./pages/main-podcast";
+@import "./pages/main-merchandising";
+@import "./components/footer";
+
+@import "./utilities/media-querys";

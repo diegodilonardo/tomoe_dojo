@@ -1,0 +1,54 @@
+main {
+    section {
+        .carousel-inner {
+            background-color:darkgrey;
+                img {
+                    margin-left: 250px;
+                    width: 612px;
+                    height: 400px;
+                }
+        }
+        .carousel-control-prev:focus {
+            opacity: .4;
+            background-color: rgb(66, 66, 66);
+            &:hover {
+                background-color: rgb(182, 12, 12);
+            }
+        }
+
+        .carousel-control-next:focus {
+            opacity: .4;
+            background-color: rgb(66, 66, 66);
+                &:hover {
+                    background-color: rgb(182, 12, 12);
+                }
+        }
+    }
+    .fotos {
+        display: flex;
+            .img_osensei1 {
+                img {
+                    padding-top: 50px;
+                    padding-left: 25px;
+                    width: 500 px;
+                    height: 367px;   
+                    }
+                }
+            .img_iwama1 {
+                img {
+                    padding-top: 50px;
+                    padding-left: 50px;
+                    width: 460px;
+                    height: 367px;  
+                    }
+                }
+            .img_dojo_aikido {
+                img {
+                    padding-top: 50px;
+                    padding-left: 50px;
+                    width: 460px;
+                    height: 367px;
+                }
+            }
+        }
+    }

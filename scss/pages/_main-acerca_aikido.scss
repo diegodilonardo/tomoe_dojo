@@ -1,0 +1,105 @@
+main {
+    .caja_principal {
+        display: flex;
+        justify-content: space-between;
+            .kanji_aikido {
+                width: 50px;
+                margin-left: 470px;
+            }
+            .titulo_aikido {
+                margin-top: 40px;
+                margin-right: 470px;
+            }
+        }
+        .seccion1 {
+            display: flex;
+            background-color: black;
+            border: 1px solid black;
+            border-radius: 5px;
+            color: aliceblue;
+            justify-content: center;
+        }
+        .seccion3 {
+            .contenedor_kanjis {
+                display: flex;
+                justify-content: center;
+                    .pictograma_letra {
+                        margin-top: 40px; 
+                    }
+            }
+        }
+        .seccion5 {
+            h2 {
+                display: flex;
+                background-color: black;
+                border: 1px solid black;
+                border-radius: 5px;
+                color: aliceblue;
+                justify-content: center;
+            }
+            .os6 {
+                display: flex;
+                width: 740px;
+                margin-left: 16%;
+            }
+            .fotos_osensei {
+                display: flex;
+                margin-left: -60px;
+                    .img_sensei {
+                        img {
+                        padding-top: 20px;
+                        padding-left: 25px;
+                        width:300px;
+                        height: 367px;
+                        }
+                    }
+            }
+        }
+        .seccion6 {
+            .titulos_acerca {
+                display: flex;
+                background-color: black;
+                border: 1px solid black;
+                border-radius: 5px;
+                color: aliceblue;
+                justify-content: center; 
+            }
+        }
+        h3 {
+            display: flex;
+            background-color: rgb(107, 106, 106);
+            border-radius: 5px;
+            width: 500px;
+            justify-content: center; 
+            margin-left: 32%;
+        }
+        .seccion7 {
+            img {
+                width: 200px;
+                height: 250px;
+            }
+        }
+        .seccion8 {
+            img {
+                width: 200px;
+                height: 250px;
+            }
+        }
+        .seccion9 {
+            img {
+                width: 200px;
+                height: 250px;
+            }
+        }
+    }
+
+
+
+        
+
+   
+
+
+
+
+

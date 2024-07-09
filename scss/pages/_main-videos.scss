@@ -1,0 +1,71 @@
+main {
+    section { 
+        .seccion1 {
+            .titulos_acerca {
+                display: flex;
+                background-color: black;
+                border: 1px solid black;
+                border-radius: 5px;
+                color: aliceblue;
+                justify-content: center; 
+                }
+            }   
+        }
+        .seccion2 {
+            h2 {
+                display: flex;
+                background-color: rgb(107, 106, 106);
+                border-radius: 5px;
+                width: 500px;
+                justify-content: center;
+                margin-top: 30px;
+                margin-left: 27%;
+                margin-bottom: 30px;
+                }
+            .nishida {
+                p {
+                    margin-top: 30px;
+                }
+                a {
+                    .imgvideo {
+                        margin-top: -340px;
+                        width: 15%;
+                        }
+                    }
+                .video_nishida {
+                    margin-left: 150px;
+                }
+            }
+            .danes {
+                p {
+                    margin-top: 30px;
+                }
+                a {
+                .imgvideo {
+                    margin-top: -340px;
+                    width: 15%;
+                }
+                }
+            .video_danes {
+                margin-left: 150px;
+            }
+            }
+            .nuestro_dojo {
+                p {
+                    margin-top: 30px;
+                }
+                a {
+                    .imgvideo {
+                        margin-top: -500px;
+                        width: 15%;
+                    }
+                }
+                .video_dojo {
+                    margin-left: 150px;
+                    width: 500px;
+                }
+            }
+
+
+        }
+}
