@@ -1,0 +1,77 @@
+@media screen and (max-width: 768px) {
+
+    main {
+        .seccion2 {
+            .pod1 {
+                    display: flex;
+                    background-color: rgb(107, 106, 106);
+                    border-radius: 5px;
+                    width: 362px;
+                    margin-top: -20px;
+                    h3 {
+                        width:auto;
+                        font-size: 19px;
+                        justify-content: center;
+                    }
+                }
+            .detalle_pod {
+                p {
+                     margin-top: 50px;
+                }
+                
+            }
+            .pod2 {
+                    display: flex;
+                    background-color: rgb(107, 106, 106);
+                    border-radius: 5px;
+                    width: 362px;
+                    margin-top: 20px;
+                    h3 {
+                        width:auto;
+                        font-size: 19px;
+                        justify-content: center;
+                    }
+                }
+            .detalle_pod2 {
+                p {
+                    margin-top: 20px;
+                }
+            }
+            .pod3 {
+                    display: flex;
+                    background-color: rgb(107, 106, 106);
+                    border-radius: 5px;
+                    width: 362px;
+                    margin-top: 20px;
+                    h3 {
+                        width:auto;
+                        font-size: 19px;
+                        justify-content: center;
+                    }
+            }
+            .detalle_pod3 {
+                p {
+                    margin-top: 20px;
+                }
+            }
+            .pod4 {
+                display: flex;
+                background-color: rgb(107, 106, 106);
+                border-radius: 5px;
+                width: 362px;
+                margin-top: 20px;
+                h3 {
+                    width:auto;
+                    font-size: 19px;
+                    justify-content: center;
+                }
+            }
+            .detalle_pod4 {
+                p {
+                    margin-top: 20px;
+                }
+            }
+        }   
+    }
+
+}
