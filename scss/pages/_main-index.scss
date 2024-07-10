@@ -28,26 +28,21 @@ main {
         display: flex;
             .img_osensei1 {
                 img {
-                    padding-top: 50px;
-                    padding-left: 25px;
-                    width: 500 px;
-                    height: 367px;   
+                    @include tamaño_imagen (50px, 25px, 400px, 367px);
+
+                    
                     }
                 }
             .img_iwama1 {
                 img {
-                    padding-top: 50px;
-                    padding-left: 50px;
-                    width: 460px;
-                    height: 367px;  
+                    @include tamaño_imagen (50px, 50px, 460px, 367px);
+                    
                     }
                 }
             .img_dojo_aikido {
                 img {
-                    padding-top: 50px;
-                    padding-left: 50px;
-                    width: 460px;
-                    height: 367px;
+                    @include tamaño_imagen (50px, 50px, 460px, 367px);
+                    
                 }
             }
         }

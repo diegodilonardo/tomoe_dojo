@@ -12,12 +12,8 @@ main {
             }
         }
         .seccion1 {
-            display: flex;
-            background-color: black;
-            border: 1px solid black;
-            border-radius: 5px;
-            color: aliceblue;
-            justify-content: center;
+            @extend %titulos_principales;
+            
         }
         .seccion3 {
             .contenedor_kanjis {
@@ -30,12 +26,7 @@ main {
         }
         .seccion5 {
             h2 {
-                display: flex;
-                background-color: black;
-                border: 1px solid black;
-                border-radius: 5px;
-                color: aliceblue;
-                justify-content: center;
+                @extend %titulos_principales;
             }
             .os6 {
                 display: flex;
@@ -47,22 +38,16 @@ main {
                 margin-left: -60px;
                     .img_sensei {
                         img {
-                        padding-top: 20px;
-                        padding-left: 25px;
-                        width:300px;
-                        height: 367px;
+
+                            @include tamaño_imagen (20px, 25px, 300px, 367px);
+                        
                         }
                     }
             }
         }
         .seccion6 {
             .titulos_acerca {
-                display: flex;
-                background-color: black;
-                border: 1px solid black;
-                border-radius: 5px;
-                color: aliceblue;
-                justify-content: center; 
+                @extend %titulos_principales;
             }
         }
         h3 {
@@ -75,20 +60,18 @@ main {
         }
         .seccion7 {
             img {
-                width: 200px;
-                height: 250px;
+                @include tamaño_imagen (none, none, 200px, 250px);
+                
             }
         }
         .seccion8 {
             img {
-                width: 200px;
-                height: 250px;
+                @include tamaño_imagen (none, none, 200px, 250px);
             }
         }
         .seccion9 {
             img {
-                width: 200px;
-                height: 250px;
+                @include tamaño_imagen (none, none, 200px, 250px);
             }
         }
     }

@@ -1,0 +1,29 @@
+%titulos_principales {
+            display: flex;
+            background-color: black;
+            border: 1px solid black;
+            border-radius: 5px;
+            color: aliceblue;
+            justify-content: center;
+}
+
+%titulos_principales_2 {
+            display: flex;
+            background-color: rgb(107, 106, 106);
+            border-radius: 5px;
+            width: 500px;
+            justify-content: center;
+            margin-top: 30px;
+            margin-left: 27%;
+            margin-bottom: 30px;
+}
+
+%titulos_principales_3 {
+            display: flex;
+            background-color: rgb(107, 106, 106);
+            border-radius: 5px;
+            width: 500px;
+            justify-content: center; 
+            margin-left: 28%;
+}
+

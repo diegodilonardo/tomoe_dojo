@@ -1,36 +1,19 @@
 main {
     .seccion1 {
         .titulos_acerca {
-            display: flex;
-            background-color: black;
-            border: 1px solid black;
-            border-radius: 5px;
-            color: aliceblue;
-            justify-content: center;
+            @extend %titulos_principales;
         }
     }
     .seccion2 {
         h3 {
-            display: flex;
-            background-color: rgb(107, 106, 106);
-            border-radius: 5px;
-            width: 500px;
-            justify-content: center;
-            margin-top: 30px;
-            margin-left: 27%;
-            margin-bottom: 30px;
+            @extend %titulos_principales_2;
+            
         }
     }
     .seccion3 {
         h3 {
-            display: flex;
-            background-color: rgb(107, 106, 106);
-            border-radius: 5px;
-            width: 500px;
-            justify-content: center;
-            margin-top: 30px;
-            margin-left: 27%;
-            margin-bottom: 30px;
+            @extend %titulos_principales_2;
+            
         }
     }
 }

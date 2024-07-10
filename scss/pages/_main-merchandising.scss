@@ -1,11 +1,6 @@
 main {
     .seccion1 {
-        display: flex;
-        background-color: black;
-        border: 1px solid black;
-        border-radius: 5px;
-        color: aliceblue;
-        justify-content: center;    
+        @extend %titulos_principales; 
     }
     .seccion2 {
         .fotos_productos {

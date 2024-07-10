@@ -1,0 +1,8 @@
+@mixin tamaño_imagen ($pad-top, $pad-left, $width, $height ) {
+    padding-top: $pad-top;
+    padding-left: $pad-left;
+    width: $width;
+    height: $height;  
+
+}
+

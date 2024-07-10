@@ -1,5 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+main section .seccion1 .titulos_acerca, main .seccion1 .titulos_acerca, main .seccion1 h2, main .seccion6 .titulos_acerca, main .seccion5 h2, main .seccion1 {
+  display: flex;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: aliceblue;
+  justify-content: center;
+}
+
+main .seccion2 h2, main .seccion3 h3, main .seccion2 h3 {
+  display: flex;
+  background-color: rgb(107, 106, 106);
+  border-radius: 5px;
+  width: 500px;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 27%;
+  margin-bottom: 30px;
+}
+
+main section .seccion4 h2, main .seccion2 h2 {
+  display: flex;
+  background-color: rgb(107, 106, 106);
+  border-radius: 5px;
+  width: 500px;
+  justify-content: center;
+  margin-left: 28%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -95,7 +124,7 @@ main .fotos {
 main .fotos .img_osensei1 img {
   padding-top: 50px;
   padding-left: 25px;
-  width: 500 px;
+  width: 400px;
   height: 367px;
 }
 main .fotos .img_iwama1 img {
@@ -123,28 +152,12 @@ main .caja_principal .titulo_aikido {
   margin-top: 40px;
   margin-right: 470px;
 }
-main .seccion1 {
-  display: flex;
-  background-color: black;
-  border: 1px solid black;
-  border-radius: 5px;
-  color: aliceblue;
-  justify-content: center;
-}
 main .seccion3 .contenedor_kanjis {
   display: flex;
   justify-content: center;
 }
 main .seccion3 .contenedor_kanjis .pictograma_letra {
   margin-top: 40px;
-}
-main .seccion5 h2 {
-  display: flex;
-  background-color: black;
-  border: 1px solid black;
-  border-radius: 5px;
-  color: aliceblue;
-  justify-content: center;
 }
 main .seccion5 .os6 {
   display: flex;
@@ -161,14 +174,6 @@ main .seccion5 .fotos_osensei .img_sensei img {
   width: 300px;
   height: 367px;
 }
-main .seccion6 .titulos_acerca {
-  display: flex;
-  background-color: black;
-  border: 1px solid black;
-  border-radius: 5px;
-  color: aliceblue;
-  justify-content: center;
-}
 main h3 {
   display: flex;
   background-color: rgb(107, 106, 106);
@@ -178,93 +183,28 @@ main h3 {
   margin-left: 32%;
 }
 main .seccion7 img {
+  padding-top: none;
+  padding-left: none;
   width: 200px;
   height: 250px;
 }
 main .seccion8 img {
+  padding-top: none;
+  padding-left: none;
   width: 200px;
   height: 250px;
 }
 main .seccion9 img {
+  padding-top: none;
+  padding-left: none;
   width: 200px;
   height: 250px;
 }
 
-main .seccion1 h2 {
-  display: flex;
-  background-color: black;
-  border: 1px solid black;
-  color: aliceblue;
-  justify-content: center;
-  border-radius: 5px;
-}
-main .seccion2 h2 {
-  display: flex;
-  background-color: rgb(107, 106, 106);
-  border-radius: 5px;
-  width: 500px;
-  justify-content: center;
-  margin-left: 28%;
-}
-main section .seccion4 h2 {
-  display: flex;
-  background-color: rgb(107, 106, 106);
-  border-radius: 5px;
-  width: 500px;
-  justify-content: center;
-  margin-left: 28%;
-}
 main section .seccion5 iframe {
   margin-left: 23%;
 }
 
-main .seccion1 .titulos_acerca {
-  display: flex;
-  background-color: black;
-  border: 1px solid black;
-  border-radius: 5px;
-  color: aliceblue;
-  justify-content: center;
-}
-main .seccion2 h3 {
-  display: flex;
-  background-color: rgb(107, 106, 106);
-  border-radius: 5px;
-  width: 500px;
-  justify-content: center;
-  margin-top: 30px;
-  margin-left: 27%;
-  margin-bottom: 30px;
-}
-main .seccion3 h3 {
-  display: flex;
-  background-color: rgb(107, 106, 106);
-  border-radius: 5px;
-  width: 500px;
-  justify-content: center;
-  margin-top: 30px;
-  margin-left: 27%;
-  margin-bottom: 30px;
-}
-
-main section .seccion1 .titulos_acerca {
-  display: flex;
-  background-color: black;
-  border: 1px solid black;
-  border-radius: 5px;
-  color: aliceblue;
-  justify-content: center;
-}
-main .seccion2 h2 {
-  display: flex;
-  background-color: rgb(107, 106, 106);
-  border-radius: 5px;
-  width: 500px;
-  justify-content: center;
-  margin-top: 30px;
-  margin-left: 27%;
-  margin-bottom: 30px;
-}
 main .seccion2 .nishida p {
   margin-top: 30px;
 }
@@ -350,14 +290,6 @@ main .seccion2 .detalle_pod4 {
   margin-top: 0px;
 }
 
-main .seccion1 {
-  display: flex;
-  background-color: black;
-  border: 1px solid black;
-  border-radius: 5px;
-  color: aliceblue;
-  justify-content: center;
-}
 main .seccion2 .fotos_productos img {
   width: 25%;
 }
