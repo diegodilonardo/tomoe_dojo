@@ -34,7 +34,8 @@ footer {
     }
     .grid-container {
         display: grid;
-        background-color: #bfbcc0;
+        /*background-color: #1e836a;*/
+        background: radial-gradient(ellipse 300px 300px, rgb(255, 255, 255), rgb(105, 21, 21), rgb(136, 107, 107));
         padding: 20px;    
         margin: 10px auto;
         border-radius: 5px;

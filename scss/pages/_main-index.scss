@@ -1,7 +1,9 @@
 main {
     section {
         .carousel-inner {
-            background-color:darkgrey;
+            background-color:rgb(35, 132, 223);
+            
+            
                 img {
                     margin-left: 250px;
                     width: 612px;
@@ -10,6 +12,7 @@ main {
         }
         .carousel-control-prev:focus {
             opacity: .4;
+            
             background-color: rgb(66, 66, 66);
             &:hover {
                 background-color: rgb(182, 12, 12);

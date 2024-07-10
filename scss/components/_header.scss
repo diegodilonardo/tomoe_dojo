@@ -17,12 +17,14 @@ header {
             }
         .caja_logo_oaal{
             grid-area: logo_oaal;
+            
             img {
                 width: $cajas_logos_img_width;
                 margin: auto;
                 padding-top: $cajas_logos_img_padd_top;
                 padding-left: $cajas_logos_img_padd_left;
-                }
+                
+            }
             }
         }
     .titulo1 {

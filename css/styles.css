@@ -97,7 +97,7 @@ header .navbar ul a:hover {
 }
 
 main section .carousel-inner {
-  background-color: darkgrey;
+  background-color: rgb(35, 132, 223);
 }
 main section .carousel-inner img {
   margin-left: 250px;
@@ -329,7 +329,8 @@ footer .formulario .suscribite_form button[type=submit] {
 }
 footer .grid-container {
   display: grid;
-  background-color: #bfbcc0;
+  /*background-color: #1e836a;*/
+  background: radial-gradient(ellipse 300px 300px, rgb(255, 255, 255), rgb(105, 21, 21), rgb(136, 107, 107));
   padding: 20px;
   margin: 10px auto;
   border-radius: 5px;
