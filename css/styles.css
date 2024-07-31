@@ -535,8 +535,12 @@ footer .flechaup {
     width: 100px;
     border: 1px solid black;
   }
+  main .seccion5 .os6 {
+    display: flex;
+    width: 300px;
+  }
   main .seccion5 .os6 .img_sensei6 {
-    width: 40%;
+    width: 100%;
     margin-left: -40px;
     border: 1px solid black;
   }
