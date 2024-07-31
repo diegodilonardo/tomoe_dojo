@@ -1,4 +1,13 @@
 @media screen and (max-width: 768px) {
+    header {
+        .titulo2 {
+            grid-area: titulo2;
+            padding-left: 50px;
+            width: 100%;
+            font-family: $familia_fuente_titulos;
+            text-align: center;
+        }
+    }
     main{
     .seccion2 {
         .fotos_productos {
