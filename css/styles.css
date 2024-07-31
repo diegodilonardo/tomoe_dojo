@@ -67,7 +67,7 @@ header .titulo1 {
 }
 header .titulo2 {
   grid-area: titulo2;
-  margin-left: -40px;
+  margin-left: -30px;
   width: 110%;
   font-family: "Montserrat", sans-serif;
   text-align: center;
@@ -518,6 +518,13 @@ footer .flechaup {
   }
 }
 @media screen and (max-width: 768px) {
+  header .titulo2 {
+    grid-area: titulo2;
+    padding-left: 50px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
   main .caja_principal .kanji_aikido {
     width: 20px;
     margin-left: 50px;
@@ -716,6 +723,13 @@ footer .flechaup {
   }
 }
 @media screen and (max-width: 768px) {
+  header .titulo2 {
+    grid-area: titulo2;
+    padding-left: 50px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+  }
   main .seccion2 iframe {
     margin: auto;
     width: 350px;
