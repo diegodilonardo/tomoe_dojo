@@ -7,6 +7,10 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Galeria de Imágenes y Videos</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
 <body>
     <header id="#top">
@@ -53,8 +57,12 @@
                     <img src="../assets/img/logo_tomoe.png" alt="logo_tomoe">
                 </a>
             </div>
+            <div class="animate__animated animate__bounceInDown">
                 <p class="titulo1">TOMOE DOJO</p>
+            </div>
+            <div class="animate__animated animate__fadeInDownBig">
                 <h2 class="titulo2">DOJO DE AIKIDO, PERTENECIENTE A LA ORGANIZACIÓN AIKIDO AIKIKAI LATINOAMERICANA</h2>
+            </div>
             <div class="caja_logo_oaal">
                 <a href="../index.html">
                     <img src="../assets/img/logo_oaal.png" alt="logo_oaal" >
@@ -67,12 +75,16 @@
     <main>
         <section>
             <div class="seccion1 container my-5">
-                <h1 class="titulos_acerca">Galeria de Videos e Imagenes</h1>
+                <div class="animate__animated animate__zoomInDown">
+                    <h1 class="titulos_acerca">Galeria de Videos e Imagenes</h1>
+                </div>
             </div>
             
-            <div class="seccion2 container my-5">    
-                <h2>Videos</h2>
-                <div class="nishida">
+            <div class="seccion2 container my-5">
+                
+                    <h2>Videos</h2>
+                
+                    <div class="nishida">
                     <p>
                         Seminario de Aikido, dictado por Makoto Nishida Shihan, en la ciudad de Mar del Plata, durante el mes de enero de 2009.
                     </p>
@@ -146,9 +158,11 @@
             </div>             
         </section>
         
-        <div >
+        <div class="copy">
             <h6 class="copyright">&#169;Copyright 2024 | Comision 69100</h6>
             <a href="#top">
+        </div>
+        <div>
             <img class="flechaup" src="../assets/ico/arrow_up.jpg" alt="Flecha Arriba">
             </a>
         </div>
